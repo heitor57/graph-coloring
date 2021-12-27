@@ -5,13 +5,13 @@ bool DEBUG = false;
 bool CHECKSOLUTION = false;
 char IMPLEMENTATION = ' ';
 void printUsage(){
-  printf("tp3 -i <entry file> -o <out file> -d (DEBUG) -c (CHECK SOLUTION) -p <Implementations>\n"
+  printf("graph-coloring -i <entry file> -o <out file> -d (DEBUG) -c (CHECK SOLUTION) -p <Implementations>\n"
     "Possible implementations\n"
     "-p b(Branch and bound) d(DSatur) r(RLF)\n"
     "-p a(All)\n"
-    "Examples: tp3 -i in.txt -o out.txt -d -p d\n"
-    "tp3 -i in.txt -o out.txt\n"
-    "tp3 -i in.txt\n");
+    "Examples: graph-coloring -i in.txt -o out.txt -d -p d\n"
+    "graph-coloring -i in.txt -o out.txt\n"
+    "graph-coloring -i in.txt\n");
   exit(ENOENT);
 }
 

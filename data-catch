@@ -17,7 +17,7 @@ for f in $(seq -f "$RootDir/v%ge*.$DotName" $verticesMin $verticesMax); do
     v=$(echo $f | grep -Po 'v\d+' |grep -Po '\d+')
     e=$(echo $f | grep -Po 'e\d+' |grep -Po '\d+')
     echo "$v $e"
-    # output=$(./tp3 -i $f -d -p b)
+    # output=$(./graph-coloring -i $f -d -p b)
     
     # echo "$output"
     # values=$(echo "$output" | awk '/Total Time/{print $3 $6 $9}'| grep -o '[0-9]\+.[0-9]\+')
@@ -29,7 +29,7 @@ for f in $(seq -f "$RootDir/v%ge*.$DotName" $verticesMin $verticesMax); do
     ## now loop through the paradigms
     for p in "${paradigms[@]}"
     do
-	output=$(./tp3 -i $f -d -p $p)
+	output=$(./graph-coloring -i $f -d -p $p)
 	values=$(echo "$output" | awk '/Total Time/{print $3 $6 $9}'| grep -o '[0-9]\+.[0-9]\+')
 	maxDegree=$(echo "$output" | awk '/Max degree/{print $3}')
 	result=$(echo "$output" | awk '/Colors/{print $2}')

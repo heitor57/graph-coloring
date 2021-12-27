@@ -5,7 +5,7 @@ COFLAGS	= -Wall -c -g
 OBJDIR = obj
 OBJS = $(addprefix $(OBJDIR)/, main.o graph.o io.o time.o coloring.o)
 LDFLAGS = -lm
-MAIN_TARGET = tp3
+MAIN_TARGET = graph-coloring
 vpath %.c  src
 vpath %.h  src
 .PHONY: directories
