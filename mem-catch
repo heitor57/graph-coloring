@@ -1,0 +1,32 @@
+#!/bin/bash
+
+
+if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]
+then
+    echo "$0 <vertices min> <vertices max> <dot name>"
+    exit
+fi
+
+verticesMin=$1
+verticesMax=$2
+DotName=$3
+declare -a paradigms=("d" "r")
+RootDir=data
+mkdir -p $RootDir
+for f in $(seq -f "$RootDir/v%ge*.$DotName" $verticesMin $verticesMax); do
+    v=$(echo $f | grep -Po 'v\d+' |grep -Po '\d+')
+    e=$(echo $f | grep -Po 'e\d+' |grep -Po '\d+')
+    echo "$v $e"
+    output=$(valgrind ./tp3 -i $f -p b 2>&1 >/dev/null | grep -P 'total heap usage' | awk '{print $9}' | sed 's/,//g')
+    echo "b $v $output" >> "$RootDir/mem.txt"
+    ## now loop through the paradigms
+    for p in "${paradigms[@]}"
+    do
+	output=$(valgrind ./tp3 -i $f -p $p 2>&1 >/dev/null | grep -P 'total heap usage' | awk '{print $9}' | sed 's/,//g')
+	echo "$p $v $output" >> "$RootDir/mem.txt"
+
+	output=$(./tp3 -i $f -d -p $p)
+	
+    done
+
+done

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]
+then
+    echo "$0 <vertices> <edges> <dot name>"
+    exit
+fi
+
+vertices=$1
+edges=$2
+DotName=$3
+#edges=$(echo "v = $1;(v^2-v)/2" | bc)
+RootDir=data/
+mkdir -p $RootDir
+f="$RootDir"v"$vertices"e"$edges".$DotName
+./generator 1 $vertices $edges $f > /dev/null

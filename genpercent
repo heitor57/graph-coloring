@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]
+then
+    echo "$0 <vertices> <percent edges[0..100]> <dot name>"
+    exit
+fi
+
+vertices=$1
+percent=$2
+DotName=$3
+edges=$(echo "v = $vertices;scale=6;r=($percent/100)*(v^2-v)/2;scale=0;r/1" | bc)
+RootDir=data/
+mkdir -p $RootDir
+f="$RootDir"v"$vertices"e"$edges".$DotName
+./generator 1 $vertices $edges $f > /dev/null

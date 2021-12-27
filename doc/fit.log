@@ -1,0 +1,813 @@
+
+
+*******************************************************************************
+Fri May 31 03:27:00 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 03:27:47 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 03:57:41 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 03:57:50 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 03:58:22 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.8127795635e+05   0.00e+00  7.12e+00    1.000000e+00   1.000000e+00
+  17 2.6198003440e+02  -1.20e-03  7.12e-04    3.784098e+00   1.388489e+01
+
+After 17 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : -1.19771e-08
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 03:58:27 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02  -1.35e-06  2.10e+02    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : -1.3464e-11
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 03:58:43 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 03:58:56 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 03:59:07 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 03:59:09 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 03:59:10 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 03:59:12 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:00:04 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:01:12 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.8127795635e+05   0.00e+00  7.12e+00    1.000000e+00   1.000000e+00
+  17 2.6198003440e+02  -1.20e-03  7.12e-04    3.784098e+00   1.388489e+01
+
+After 17 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : -1.19771e-08
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:01:14 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02  -1.35e-06  2.10e+02    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : -1.3464e-11
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:03:29 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.8127795635e+05   0.00e+00  7.12e+00    1.000000e+00   1.000000e+00
+  17 2.6198003440e+02  -1.20e-03  7.12e-04    3.784098e+00   1.388489e+01
+
+After 17 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : -1.19771e-08
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:03:34 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02  -1.35e-06  2.10e+02    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : -1.3464e-11
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:07:45 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:08:00 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:11:45 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:12:44 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.8127795635e+05   0.00e+00  7.12e+00    1.000000e+00   1.000000e+00
+  17 2.6198003440e+02  -1.20e-03  7.12e-04    3.784098e+00   1.388489e+01
+
+After 17 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : -1.19771e-08
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:14:33 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:14:38 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:15:19 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02  -1.35e-06  2.10e+02    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : -1.3464e-11
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:15:34 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' ../data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= (a)**(x-b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6198003440e+02   0.00e+00  2.10e+03    3.784098e+00   1.388489e+01
+   1 2.6198003440e+02   0.00e+00  2.10e+06    3.784098e+00   1.388489e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261.98
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 34
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.77584
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.7053
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.7841           +/- 0.03519      (0.9301%)
+b               = 13.8849          +/- 0.03562      (0.2566%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Fri May 31 04:16:23 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:16:26 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:19:04 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:19:20 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:20:38 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:20:40 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:20:46 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:20:49 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:20:56 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit
+
+*******************************************************************************
+Fri May 31 04:21:04 2019
+
+
+FIT:    data read from "<(grep -P 'rand87' data/data.txt | grep -P '^b' | sort -nk2 | cut -d' ' -f2,7)"
+        format = z
+BREAK: No data to fit

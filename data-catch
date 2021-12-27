@@ -1,0 +1,39 @@
+#!/bin/bash
+
+
+if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]
+then
+    echo "$0 <vertices min> <vertices max> <dot name>"
+    exit
+fi
+
+verticesMin=$1
+verticesMax=$2
+DotName=$3
+declare -a paradigms=("d" "r")
+RootDir=data
+mkdir -p $RootDir
+for f in $(seq -f "$RootDir/v%ge*.$DotName" $verticesMin $verticesMax); do
+    v=$(echo $f | grep -Po 'v\d+' |grep -Po '\d+')
+    e=$(echo $f | grep -Po 'e\d+' |grep -Po '\d+')
+    echo "$v $e"
+    # output=$(./tp3 -i $f -d -p b)
+    
+    # echo "$output"
+    # values=$(echo "$output" | awk '/Total Time/{print $3 $6 $9}'| grep -o '[0-9]\+.[0-9]\+')
+    # maxDegree=$(echo "$output" | awk '/Max degree/{print $3}')
+    # resultC=$(echo "$output" | awk '/Colors/{print $2}')
+    # result="$resultC"
+    # echo "b $v $e $maxDegree $resultC $result "$(echo "$values" | sed -n '3p')" $DotName">> "$RootDir/""data.txt"
+    resultC=-1
+    ## now loop through the paradigms
+    for p in "${paradigms[@]}"
+    do
+	output=$(./tp3 -i $f -d -p $p)
+	values=$(echo "$output" | awk '/Total Time/{print $3 $6 $9}'| grep -o '[0-9]\+.[0-9]\+')
+	maxDegree=$(echo "$output" | awk '/Max degree/{print $3}')
+	result=$(echo "$output" | awk '/Colors/{print $2}')
+    	echo "$p $v $e $maxDegree $resultC $result "$(echo "$values" | sed -n '3p')" $DotName">> "$RootDir/""data.txt"
+    done
+
+done

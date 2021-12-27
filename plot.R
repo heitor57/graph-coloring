@@ -1,0 +1,7 @@
+  require(ggplot2)
+  require(ggpmisc)
+  Data <- read.table("data/data.txt")
+  names(Data) <- c("Implementacao","Vertices","Arestas","GrauMaximo","CoresMin","Cores","Tempo","Dot")
+  Data<- subset(Data,Implementacao!="b")
+ Data <- subset(Data,Dot=="rand55")
+  qplot(x=Vertices,xlab="Vertices",y=Tempo,ylab="Tempo(s)",data=Data,color=Implementacao)+geom_point()+stat_smooth(size=1.5, method = "loess", level = 0.95, fullrange = TRUE, se = FALSE)+stat_poly_eq(formula=y~poly(x,2), aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), parse = TRUE)

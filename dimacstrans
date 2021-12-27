@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ -z "$1" ] || [ -z "$2" ]
+then
+    echo "$0 <fin> <fout>"
+    exit
+fi
+fin=$1
+fout=$2
+
+printf "$(grep -P "^p" $fin | awk '{print $3}')\n$(grep -Po "(?<=^e ).*" $fin | awk '{print $1-1 " " $2-1}')" > $fout
