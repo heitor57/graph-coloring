@@ -18,16 +18,16 @@
     graph-coloring -i in.txt -o out.txt
     graph-coloring -i in.txt
 
-As opções prováveis a serem mais utilizadas são o i,o e p
-Caso queira passar somente o arquivo de entrada como parâmetro é possível, e isso fará com que a saída seja na saída padrão e o paradigma a ser utilizado irá ser perguntado durante a execução.
-Para pular a pergunta de qual paradigma a ser utilizado basta utilizar o parametro p com algum paradigma (b,d,r) ou todos (a).
+The most likely options to be used are i,o and p.
+In case you only want to pass the input file as a parameter, it is possible, and that will make the output be in the standard output and the paradigm to be used will be asked during the execution.
+To skip the question of which paradigm to use, just use the parameter p with some paradigm (b,d,r) or all (a).
 
 
-A entrada do programa deve ter o seguinte padrão:
+The program input should have the following pattern:
 
 <vertices>
-<vertice x> <vertice y>
-<vertice k> <vertice i>
+<vertex x> <vertex y>
+<vertex k> <vertex i>
 ...
 
-Toda linha deve ter um '\n' no final.
+Every line must have a '\n' at the end.
