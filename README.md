@@ -25,9 +25,9 @@ To skip the question of which paradigm to use, just use the parameter p with som
 
 The program input should have the following pattern:
 
-<vertices>
-<vertex x> <vertex y>
-<vertex k> <vertex i>
-...
+    <vertices>
+    <vertex x> <vertex y>
+    <vertex k> <vertex i>
+    ...
 
 Every line must have a '\n' at the end.
